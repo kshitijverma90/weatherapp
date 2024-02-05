@@ -1,0 +1,66 @@
+/* Login Container Styles */
+.login {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading Login Styles */
+.heading_login {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Login Container Styles */
+.login_container {
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 300px;
+}
+
+/* Heading Styles */
+h1 {
+    margin: 10px 0;
+    color: #333; /* Dark text color */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Styles */
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.login_signInButton,
+.login_registerButton {
+    background-color: #4caf50; /* Green color */
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button Margin Styles */
+.login_registerButton {
+    margin-top: 10px;
+}
+
+/* Button Hover Styles */
+.login_signInButton:hover,
+.login_registerButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

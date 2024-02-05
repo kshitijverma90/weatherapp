@@ -1,0 +1,84 @@
+Header Container Styles
+.header {
+    margin-top: 0px;
+    background-color: #4caf50; /* Green color */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Logo Styles */
+.header_logo {
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Heading Styles */
+h1 {
+    margin: 0;
+}
+
+/* Navigation Styles */
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Navigation Option Styles */
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Navigation Option Line Styles */
+.header_optionLineOne {
+    font-size: 14px;
+}
+
+.header_optionLineTwo {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* Navigation Option Hover Styles */
+.header_option:hover {
+    opacity: 0.8;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .weather-header {
+    background-color: #349327;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo-container h1 {
+    margin: 0;
+  }
+  
+  .signin-container button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signin-container button:hover {
+    background-color: #27ae60;
+  }
+  

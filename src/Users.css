@@ -1,0 +1,59 @@
+/* Container Styles */
+.user-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Heading Styles */
+.list-heading {
+    color: #333;
+}
+
+/* Table Styles */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Header Cell Styles */
+.username-header,
+.date-header,
+.status-header,
+.actions-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Data Cell Styles */
+.username-cell,
+.date-cell,
+.status-cell,
+.actions-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Button Styles */
+.delete-btn,
+.inactive-btn,
+.active-btn,
+.add-user-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover Styles */
+.delete-btn:hover,
+.inactive-btn:hover,
+.active-btn:hover,
+.add-user-btn:hover {
+    background-color: #45a049;
+}
